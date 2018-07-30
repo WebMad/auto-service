@@ -1,0 +1,127 @@
+a:hover{
+	text-decoration: none;
+}
+
+.site-header{
+	background: rgba(0, 0, 0, .85);
+}
+.site-header a{
+	color: #999;
+    transition: ease-in-out color .15s;
+}
+.site-header a:hover{
+	color: #fff;
+}
+.site-content{
+	background: #f8f9fa;
+}
+.call{
+	background-color: rgb(244, 87, 35) !important;
+	border: 1px solid transparent !important;
+}
+.call:focus{
+	box-shadow: 0 0 0 0.2rem rgba(255, 87, 34, 0.5) !important;
+}
+.message{
+	 background-color: rgb(244, 87, 35) !important;
+	 border: 1px solid transparent !important;
+ }
+.message:focus{
+	box-shadow: 0 0 0 0.2rem rgba(255, 87, 34, 0.5) !important;
+}
+.bg-image{
+	background: url("/assets/images/1440.jpg") no-repeat 50% 0%;
+	background-size: 100%;
+}
+@media only screen and (min-width: 1480px) {
+	.top-btn {
+		top: 50%;
+	}
+	.text-main{
+		font-size: 300%;
+	}
+	.text{
+		font-size: 250%;
+		margin-top: 3rem !important;
+	}
+	.call{
+		font-size: 100% !important;
+	 }
+	.message{
+		font-size: 100% !important;
+	}
+}
+@media only screen and (min-width: 1200px) and (max-width: 1480px) {
+	.top-btn {
+		top: 45%;
+	}
+	.text-main{
+		font-size: 300%;
+	}
+	.text{
+		font-size: 250%;
+		margin-top: 3rem !important;
+	}
+	.call{
+		font-size: 100% !important;
+	}
+	.message{
+		font-size: 100% !important;
+	}
+}
+@media only screen and (min-width: 1000px) and (max-width: 1200px) {
+	.top-btn {
+		top: 40%;
+	}
+	.text-main{
+		font-size: 250%;
+	}
+	.text{
+		font-size: 150%;
+		margin-top: 2rem !important;
+	}
+	.call{
+		font-size: 80% !important;
+	}
+	.message{
+		font-size: 80% !important;
+	}
+}
+@media only screen and (min-width: 500px) and (max-width: 1000px) {
+	.top-btn {
+		top: 40%;
+
+	}
+	.text-main{
+		font-size: 100%;
+	}
+	.text{
+		font-size: 60%;
+		margin-top: 2rem !important;
+	}
+	.call{
+		font-size: 50% !important;
+	}
+	.message{
+		font-size: 50% !important;
+	}
+}
+@media only screen and (min-width: 0px) and (max-width: 500px) {
+	.top-btn {
+		top: 20%;
+
+	}
+	.text-main{
+		font-size: 50%;
+	}
+	.text{
+		font-size: 30%;
+		margin-top: 0.5rem !important;
+	}
+	.call{
+		font-size: 25% !important;
+	}
+	.message{
+		font-size: 25% !important;
+	}
+}
